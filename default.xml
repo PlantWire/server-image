@@ -4,5 +4,4 @@
   <remote name="github" fetch="github.com" />
   <project name="poky" path="layers/poky" remote="yocto-project" revision="hardknott" />
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="hardknott"/>
-</project>
 </manifest>
