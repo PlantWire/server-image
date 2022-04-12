@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="yocto-project" fetch="https://git.yoctoproject.org" />
-  <remote name="github" fetch="https://github.com" />
-  <project name="poky" path="layers/poky" remote="yocto-project" revision="refs/hardknott" />
-  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github" revision="refs/hardknott"/>
+  <remote name="yocto-project" fetch="https://git.yoctoproject.org" revision="hardknott"/>
+  <remote name="github" fetch="https://github.com" revision="hardknott"/>
+  <project name="poky" path="layers/poky" remote="yocto-project"/>
+  <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
 </manifest>
