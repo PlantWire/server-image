@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="yocto-project" fetch="https://git.yoctoproject.org" revision="hardknott"/>
-  <remote name="github" fetch="https://github.com" revision="hardknott"/>
+  <remote name="yocto-project" fetch="https://git.yoctoproject.org" revision="honister"/>
+  <remote name="github" fetch="https://github.com" revision="honister"/>
   <project name="poky" path="layers/poky" remote="yocto-project"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="linux-sunxi/meta-sunxi" path="layers/meta-sunxi" remote="github"/>
