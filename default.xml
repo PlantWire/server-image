@@ -5,5 +5,4 @@
   <project name="poky" path="layers/poky" remote="yocto-project"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="linux-sunxi/meta-sunxi" path="layers/meta-sunxi" remote="github"/>
-  <copyfile src=".repo/manifests/build/conf/bblayers.conf" dest="build/conf/bblayers.conf"/>
 </manifest>
