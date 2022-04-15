@@ -1,3 +1,4 @@
+.repo
 layers/
 build/bitbake-cookerdaemon.log
 build/cache/
