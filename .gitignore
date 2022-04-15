@@ -1,1 +1,7 @@
 layers/
+build/bitbake-cookerdaemon.log
+build/cache/
+build/conf/templateconf.cfg
+build/downloads/
+build/sstate-cache/
+build/tmp/
